@@ -20,7 +20,7 @@ public class SpikeGenerator : MonoBehaviour
 
    public void GenerateNextSpikeWithGap()
    {
-       float randomWait = Random.Range(0.1f, 1.2f);
+       float randomWait = Random.Range(0.5f, 1.2f);
        Invoke("generateSpike", randomWait);
    }
  
